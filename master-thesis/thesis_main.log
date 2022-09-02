@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  2 SEP 2022 12:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  2 SEP 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1898,7 +1898,7 @@ File: figures/background/tri.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures/background/tri.pdf  used on input line 3.
 (pdftex.def)             Requested size: 132.87952pt x 124.44806pt.
 ) [17 <./figures/background/tri.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
@@ -1999,50 +1999,44 @@ File: figures/experiments/enwg_mixed.png Graphic file (type png)
 Package pdftex.def Info: figures/experiments/enwg_mixed.png  used on input line
  3.
 (pdftex.def)             Requested size: 389.05254pt x 246.92189pt.
- [33
+) [33
 
 
-]) (figures/experiments/enwg_mv.tex
-<figures/experiments/enwg_mv.png, id=551, 776.9025pt x 493.845pt>
+] [34 <./figures/experiments/enwg_mixed.png>] (figures/experiments/enwg_mv.tex
+<figures/experiments/enwg_mv.png, id=556, 776.9025pt x 493.845pt>
 File: figures/experiments/enwg_mv.png Graphic file (type png)
 <use figures/experiments/enwg_mv.png>
 Package pdftex.def Info: figures/experiments/enwg_mv.png  used on input line 3.
 
 (pdftex.def)             Requested size: 388.45029pt x 246.92189pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [34 <./figures/experiments/enwg_mixed.png>]
-(figures/experiments/enwg_zoom.tex
+) (figures/experiments/enwg_zoom.tex
 <figures/experiments/enwg_zoom.png, id=558, 763.653pt x 241.50224pt>
 File: figures/experiments/enwg_zoom.png Graphic file (type png)
 <use figures/experiments/enwg_zoom.png>
 Package pdftex.def Info: figures/experiments/enwg_zoom.png  used on input line 
 3.
 (pdftex.def)             Requested size: 381.82556pt x 120.75081pt.
-)
-Underfull \vbox (badness 3746) has occurred while \output is active []
 
- [35 <./figures/experiments/enwg_mv.png> <./figures/experiments/enwg_zoom.png>]
 
-(figures/experiments/1000_iter/tri_plus_ant.tex
-<figures/experiments/1000_iter/tri_1000.png, id=568, 449.88075pt x 337.26pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (figures/experiments/1000_iter/tri_plus_ant.tex
+<figures/experiments/1000_iter/tri_1000.png, id=561, 449.88075pt x 337.26pt>
 File: figures/experiments/1000_iter/tri_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/tri_1000.png>
 Package pdftex.def Info: figures/experiments/1000_iter/tri_1000.png  used on in
 put line 5.
 (pdftex.def)             Requested size: 179.25116pt x 134.3767pt.
-<figures/experiments/1000_iter/tri_ant_1000.png, id=569, 449.88075pt x 334.851p
+<figures/experiments/1000_iter/tri_ant_1000.png, id=562, 449.88075pt x 334.851p
 t>
 File: figures/experiments/1000_iter/tri_ant_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/tri_ant_1000.png>
 Package pdftex.def Info: figures/experiments/1000_iter/tri_ant_1000.png  used o
 n input line 11.
 (pdftex.def)             Requested size: 179.25116pt x 133.41685pt.
-)
-(figures/experiments/1000_iter/pypsa_1000.tex
-<figures/experiments/1000_iter/pypsa_1000.png, id=572, 781.7205pt x 525.76425pt
+ [35 <./figures/experiments/enwg_mv.png>]) (figures/experiments/1000_iter/pypsa
+_1000.tex
+<figures/experiments/1000_iter/pypsa_1000.png, id=571, 781.7205pt x 525.76425pt
 >
 File: figures/experiments/1000_iter/pypsa_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/pypsa_1000.png>
@@ -2053,8 +2047,10 @@ input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (figures/experiments/1000_iter/min_cost_1000.tex
-<figures/experiments/1000_iter/min_cost_1000.png, id=574, 462.528pt x 346.896pt
+) [36 <./figures/experiments/enwg_zoom.png> <./figures/experiments/1000_iter/tr
+i_1000.png> <./figures/experiments/1000_iter/tri_ant_1000.png>]
+(figures/experiments/1000_iter/min_cost_1000.tex
+<figures/experiments/1000_iter/min_cost_1000.png, id=580, 462.528pt x 346.896pt
 >
 File: figures/experiments/1000_iter/min_cost_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/min_cost_1000.png>
@@ -2065,9 +2061,9 @@ on input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [36 <./figures/experiments/1000_iter/tri_1000.png> <./figures/experiments/100
-0_iter/tri_ant_1000.png>] (figures/experiments/1000_iter/best_mv_1000.tex
-<figures/experiments/1000_iter/best_mv_1000.png, id=582, 467.94826pt x 337.8622
+) [37 <./figures/experiments/1000_iter/pypsa_1000.png>]
+(figures/experiments/1000_iter/best_mv_1000.tex
+<figures/experiments/1000_iter/best_mv_1000.png, id=587, 467.94826pt x 337.8622
 4pt>
 File: figures/experiments/1000_iter/best_mv_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/best_mv_1000.png>
@@ -2083,12 +2079,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[37 <./figures/experiments/1000_iter/pypsa_1000.png>]
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
- [38 <./figures/experiments/1000_iter/min_cost_1000.png>] [39 <./figures/experi
-ments/1000_iter/best_mv_1000.png>] (figures/experiments/ringsize/ringsize_both.
-tex
+[38 <./figures/experiments/1000_iter/min_cost_1000.png>] [39 <./figures/experim
+ents/1000_iter/best_mv_1000.png>]
+(figures/experiments/ringsize/ringsize_both.tex
 <figures/experiments/ringsize/size_8_9.png, id=603, 462.528pt x 336.0555pt>
 File: figures/experiments/ringsize/size_8_9.png Graphic file (type png)
 <use figures/experiments/ringsize/size_8_9.png>
@@ -2101,30 +2094,28 @@ File: figures/experiments/ringsize/size_10.png Graphic file (type png)
 Package pdftex.def Info: figures/experiments/ringsize/size_10.png  used on inpu
 t line 12.
 (pdftex.def)             Requested size: 199.16931pt x 143.63057pt.
-)
+) [40 <./figures/experiments/ringsize/size_8_9.png> <./figures/experiments/ring
+size/size_10.png>]
 (figures/experiments/plt_ant.tex
-<figures/experiments/plt_ant.pdf, id=611, 433.62pt x 289.08pt>
+<figures/experiments/plt_ant.pdf, id=618, 433.62pt x 289.08pt>
 File: figures/experiments/plt_ant.pdf Graphic file (type pdf)
 <use figures/experiments/plt_ant.pdf>
 Package pdftex.def Info: figures/experiments/plt_ant.pdf  used on input line 3.
 
 (pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
 )
-Underfull \vbox (badness 6675) has occurred while \output is active []
 
- [40 <./figures/experiments/ringsize/size_8_9.png> <./figures/experiments/rings
-ize/size_10.png>] (figures/experiments/q_0.tex
-<figures/experiments/q_0.pdf, id=619, 433.62pt x 289.08pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[41] (figures/experiments/q_0.tex
+<figures/experiments/q_0.pdf, id=628, 433.62pt x 289.08pt>
 File: figures/experiments/q_0.pdf Graphic file (type pdf)
 <use figures/experiments/q_0.pdf>
 Package pdftex.def Info: figures/experiments/q_0.pdf  used on input line 3.
 (pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (figures/experiments/alpha_beta.tex
-<figures/experiments/alpha_beta.pdf, id=620, 462.52798pt x 346.89601pt>
+) [42 <./figures/experiments/plt_ant.pdf>]
+(figures/experiments/alpha_beta.tex
+<figures/experiments/alpha_beta.pdf, id=658, 462.52798pt x 346.89601pt>
 File: figures/experiments/alpha_beta.pdf Graphic file (type pdf)
 <use figures/experiments/alpha_beta.pdf>
 Package pdftex.def Info: figures/experiments/alpha_beta.pdf  used on input line
@@ -2134,20 +2125,19 @@ Package pdftex.def Info: figures/experiments/alpha_beta.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [41 <./figures/experiments/plt_ant.pdf>]) (chapters/6-conclusions.tex
-[42 <./figures/experiments/q_0.pdf>] [43 <./figures/experiments/alpha_beta.pdf>
-] [44
-
-
-]
+)) (chapters/6-conclusions.tex [43 <./figures/experiments/q_0.pdf>] [44 <./figu
+res/experiments/alpha_beta.pdf>]
 chapter 6.
-[45] [46
+[45
+
+
+] [46
 
 
 ]
 chapter A.
 (figures/experiments/ringsize/ringsize89_2.tex
-<figures/experiments/ringsize/ringsize89_2.png, id=720, 735.34724pt x 528.17325
+<figures/experiments/ringsize/ringsize89_2.png, id=722, 735.34724pt x 528.17325
 pt>
 File: figures/experiments/ringsize/ringsize89_2.png Graphic file (type png)
 <use figures/experiments/ringsize/ringsize89_2.png>
@@ -2156,7 +2146,7 @@ Package pdftex.def Info: figures/experiments/ringsize/ringsize89_2.png  used on
 (pdftex.def)             Requested size: 294.13368pt x 211.26555pt.
 )
 (figures/experiments/ringsize/ringsize10_2.tex
-<figures/experiments/ringsize/ringsize10_2.png, id=721, 732.93825pt x 502.87875
+<figures/experiments/ringsize/ringsize10_2.png, id=723, 732.93825pt x 502.87875
 pt>
 File: figures/experiments/ringsize/ringsize10_2.png Graphic file (type png)
 <use figures/experiments/ringsize/ringsize10_2.png>
@@ -2180,11 +2170,11 @@ Package rerunfilecheck Info: File `thesis_main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31698 strings out of 477809
- 630955 string characters out of 2820568
- 1153875 words of memory out of 3000000
+ 31702 strings out of 477809
+ 630644 string characters out of 2820568
+ 1154875 words of memory out of 3000000
  49482 multiletter control sequences out of 15000+600000
- 580238 words of font info for 223 fonts, out of 8000000 for 9000
+ 580498 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10764b,645s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Paul/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -2210,9 +2200,9 @@ eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Paul/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Paul/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Paul/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis_main.pdf (65 pages, 2617532 bytes).
+Output written on thesis_main.pdf (65 pages, 2622056 bytes).
 PDF statistics:
- 985 PDF objects out of 1000 (max. 8388607)
+ 987 PDF objects out of 1000 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
  61911 words of extra memory for PDF output out of 61914 (max. 10000000)
 

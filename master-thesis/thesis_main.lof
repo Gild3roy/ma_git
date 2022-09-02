@@ -17,7 +17,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {12}{\ignorespaces The grid used for testing. (internally developed tool used for visualization)\relax }}{34}{figure.caption.30}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Middle voltage part of the grid.\relax }}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Parallel lines in the ring of the MV grid.\relax }}{35}{figure.caption.32}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Parallel lines in the ring of the MV grid.\relax }}{36}{figure.caption.32}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Triangulation.\relax }}{36}{figure.caption.33}%
 \contentsline {figure}{\numberline {16}{\ignorespaces Ant graph.\relax }}{36}{figure.caption.33}%
 \contentsline {figure}{\numberline {17}{\ignorespaces Result network of best found MV grid.\relax }}{37}{figure.caption.34}%
@@ -25,9 +25,9 @@
 \contentsline {figure}{\numberline {19}{\ignorespaces Schematic view of the best found MV grid. The "hubs" resemble MV/LV trafos which need to be connected to "7116" - the HV/MV trafo. Newly created lines by the algorithm are marked red.\relax }}{39}{figure.caption.36}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Max. 8/9 buses per ring.\relax }}{40}{figure.caption.39}%
 \contentsline {figure}{\numberline {21}{\ignorespaces Max. ten buses per ring\relax }}{40}{figure.caption.39}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Minimal cost found since the start for different number of ants per iteration.\relax }}{41}{figure.caption.42}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Minimal cost found since the start for different $q0$.\relax }}{42}{figure.caption.45}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Minimal cost found since the start for different configurations of $\alpha $ and $\beta $.\relax }}{43}{figure.caption.46}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Minimal cost found since the start for different number of ants per iteration.\relax }}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Minimal cost found since the start for different $q0$.\relax }}{43}{figure.caption.45}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Minimal cost found since the start for different configurations of $\alpha $ and $\beta $.\relax }}{44}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {25}{\ignorespaces Max. 8/9 buses per ring (MV)\relax }}{47}{figure.caption.51}%

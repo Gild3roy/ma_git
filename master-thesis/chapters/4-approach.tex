@@ -36,7 +36,7 @@ Important Parameters to set are the following:
 
 
 \subsection{APMV Implementation}
-In algorithm \ref{alg:high_level} the high-level implementation of the APMV is shown. At the very beginning, the input grid is prepared to work with the algorithm in a preprocessing step. Afterwards the initial pheromone is deposited. As already explained in chapter \ref{chap:background}, every ant in the algorithm builds one solution per iteration. Out of these solutions the best one is kept and rewarded with pheromones which influences the solution building process of the next iteration ($globalPheromoneUpdate()$). At the end, the overall best solution and its cost is returned. $\varphi_0$ is the pheromone distribution at the start and $N$ is the number of stations in the network.
+In algorithm \ref{alg:high_level} the high-level implementation of the APMV is shown. At the very beginning, the input grid is prepared to work with the algorithm in a preprocessing step. Afterwards the initial pheromone is deposited. As already explained in Chapter \ref{chap:background}, every ant in the algorithm builds one solution per iteration. Out of these solutions the best one is kept and rewarded with pheromones which influences the solution building process of the next iteration ($globalPheromoneUpdate()$). At the end, the overall best solution and its cost is returned. $\varphi_0$ is the pheromone distribution at the start and $N$ is the number of stations in the network.
 
 \begin{algorithm}[h]
 	\caption{High-level implementation of APMV}
