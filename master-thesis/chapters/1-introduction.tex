@@ -1,0 +1,17 @@
+\chapter{Introduction}\label{chap:introduction}
+
+
+
+Expansion of the electric grid is often necessary to cope with the growing demand for electricity. Additionally, the decentralized structure of power generation and the volatility of renewable energy sources pose challenges on the grid. New is also the possibility to control loads in form of batteries for electric vehicles for example.
+...
+Most use cases of network planning have their own specific properties and therefore the suggested automated solution must fit the respective problem. The distinction between high-, middle- and low-voltage levels of the grid are often used as a further classification for planning solutions. In addition to different nominal voltage levels they possess different topology constrains like the (n-1)-criterion for middle-voltage grids which must be considered by the algorithm. This categorization reduces the complexity of the problem but at the same time also reduces generality of application. ...
+
+This work mainly focuses on target network planning for middle voltage grids. But additional information from low-voltage level about potentially useful transformer relocation is also considered.
+
+Middle voltage grid expansion is especially relevant for rapid charging stations for electric cars. According to a report filed by the German federal network agency in 2021, the cost of the network expansion for the coming ten years amounts to 15.84 billion Euros where 9.47 billion (or 3.3 billion?! TODO: check paper again) are estimated for middle voltage grid (MV grid) expansion \cite{Ausbaubericht_2021_page14}. A smart MV grid expansion is therefore not only relevant for the future supply of electricity but also for public or private funding. \\
+
+It is clear that the expansion of the electric grid is often necessary to cope with the growing demand for electricity. Additionally, the decentralized structure of power generation and the volatility of renewable energy sources pose challenges on the grid. New is also the possibility to control loads in form of batteries for electric vehicles for example. \\
+Due to these new requirements and possibilities, also the planning of distribution grid expansion becomes more difficult. This makes is it harder for experts to rely on manual planning only. Instead, distribution system operators increasingly use automated optimization methods to find solutions of better quality. \\
+According to \cite{rotering2013zielnetzplanung} network planning can roughly be categorized into “target network planning” and “expansion planning”, which correspond to the applied time horizon. Target network planning has a scope of a longer time horizon (ten years plus) and does not take existing grid infrastructure into account. It assumes that a new grid can be built from scratch and tries to find an optimal solution which fulfills all given requirements. This is typically used for the planning of new residential areas and long-term grid transformations. Network expansion on the other hand takes the existing grid infrastructure into account and tries to modify it in a way that it can cope with the more short- and mid-term demands (time horizon five to ten years). Mostly, target planning is done in a first step and afterwards the existing network is modified using expansion planning in the direction of the target network solution. In this work network planning generally refers to target network planning.\\
+
+TODO: work in progress

@@ -1,0 +1,82 @@
+\begin{thebibliography}{10}
+
+\bibitem{Ausbaubericht_2021_page14}
+T.~P. u.~E. Bundesnetzagentur~für Elektrizität, Gas, ``{Bericht zum Zustand
+  und Ausbau der Verteilernetze 2021},'' 2021.
+
+\bibitem{rotering2013zielnetzplanung}
+N.~Rotering, {\em Zielnetzplanung von Mittelspannungsnetzen unter
+  Ber{\"u}cksichtigung von dezentralen Einspeisungen und steuerbaren Lasten}.
+\newblock Printproduction Wolff, 2013.
+
+\bibitem{review}
+P.~Georgilakis and N.~Hatziargyriou, ``A review of power distribution planning
+  in the modern power systems era: Models, methods and future research,'' {\em
+  Electric Power Systems Research}, vol.~121, 04 2015.
+
+\bibitem{non_linear_programming}
+R.~H. Fletcher and K.~Strunz, ``Optimal distribution system horizon
+  planning–part i: Formulation,'' {\em IEEE Transactions on Power Systems},
+  vol.~22, no.~2, pp.~791--799, 2007.
+
+\bibitem{dynamic_programming}
+G.~Celli, S.~Mocci, F.~Pilo, D.~Bertini, R.~Cicoria, and S.~Corti, ``Multi-year
+  optimal planning of active distribution networks,'' 05 2007.
+
+\bibitem{genetic_algo}
+M.~S. Nazar and M.~R. Haghifam, ``Multiobjective electric distribution system
+  expansion planning using hybrid energy hub concept,'' {\em Electric Power
+  Systems Research}, vol.~79, no.~6, pp.~899--911, 2009.
+
+\bibitem{tabu_search}
+A.~M. Cossi, R.~Romero, and J.~R.~S. Mantovani, ``Planning and projects of
+  secondary electric power distribution systems,'' {\em IEEE Transactions on
+  Power Systems}, vol.~24, no.~3, pp.~1599--1608, 2009.
+
+\bibitem{ant_system}
+M.~Dorigo, V.~Maniezzo, and A.~Colorni, ``Ant system: optimization by a colony
+  of cooperating agents,'' {\em IEEE Transactions on Systems, Man, and
+  Cybernetics, Part B (Cybernetics)}, vol.~26, no.~1, pp.~29--41, 1996.
+
+\bibitem{bonabeau1999swarm}
+E.~Bonabeau, M.~Dorigo, G.~Theraulaz, and G.~Theraulaz, {\em Swarm
+  intelligence: from natural to artificial systems}.
+\newblock No.~1, Oxford university press, 1999.
+
+\bibitem{ant_coloy_system}
+M.~Dorigo and L.~Gambardella, ``Ant colony system: a cooperative learning
+  approach to the traveling salesman problem,'' {\em IEEE Transactions on
+  Evolutionary Computation}, vol.~1, no.~1, pp.~53--66, 1997.
+
+\bibitem{gebhard2021expansion}
+L.~Gebhard, ``Expansion planning of low-voltage grids using ant colony
+  optimization,'' 2021.
+
+\bibitem{zeller2021planung}
+J.~Zeller, ``Planung von {M}ittelspannungsnetzen mithilfe eines
+  {A}meisenalgorithmus,'' 2021.
+
+\bibitem{deneubourg1990self}
+J.-L. Deneubourg, S.~Aron, S.~Goss, and J.~M. Pasteels, ``The self-organizing
+  exploratory pattern of the argentine ant,'' {\em Journal of insect behavior},
+  vol.~3, no.~2, pp.~159--168, 1990.
+
+\bibitem{DBLP:books/daglib/0013523}
+M.~Dorigo and T.~St{\"{u}}tzle, {\em Ant colony optimization}.
+\newblock {MIT} Press, 2004.
+
+\bibitem{schmitting2000traveling}
+W.~Schmitting, {\em Das Traveling-Salesman-Problem: Anwendungen und
+  heuristische Nutzung von Voronoi-Delaunay-Strukturen zur Loesung
+  euklidischer, zweidimensionaler Traveling-Salesman-Probleme}.
+\newblock PhD thesis, Zugl.: D{\"u}sseldorf, Univ., Diss., 1999, 2000.
+
+\bibitem{robert_john}
+R.~John, ``Planning of synthetic low voltage networks with geographical
+  constraints,'' 2021.
+
+\bibitem{brown2017pypsa}
+T.~Brown, J.~H{\"o}rsch, and D.~Schlachtberger, ``Pypsa: Python for power
+  system analysis,'' {\em arXiv preprint arXiv:1707.09913}, 2017.
+
+\end{thebibliography}
