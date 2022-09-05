@@ -65,6 +65,12 @@ In algorithm \ref{alg:high_level} the high-level implementation of the APMV is s
 
 \subsubsection{Global Pheromone Update}
 %TODO: write formula
+The global pheromone update is performed once after each iteration and deposits additional pheromones on the nodes expanded by the best solution found so far. Over time this enables the algorithms to learn from previous iterations which nodes generally lead to good or bad solutions. The formula for the global pheromone update on all visited nodes $i$ of the best solution is the following:
+$$\varphi_i = (1-\rho) \varphi_i + \rho \frac{c_{est}}{c_{best}},$$
+where $\rho \in (0,1)$, $c_{best}$ are the cost of the best solution found so far and $c_{est}$ are the estimated cost of the solution. The reciprocal of the $c_{best}$ is normalized by the $c_{est}$ to better reflect the quality of the solution. Low cost solutions receive high amounts of pheromone and vice versa.
+%amount = estimated_min_expansion_cost / min_cost
+%pheromone_i = pheromone_i * (1-rho) + amount * rho
+
 \subsection{Solution Creation of Ants}
 In algorithm \ref{alg:solution} the schematic implementation of the $createSolution()$ function is shown. The expanded nodes are ant nodes and the $solution()$ method checks whether the hull of the set expandedNodes covers all stations. The $expand()$ method finds the next node which should be added and depends on the pheromones $\varphi$, the heuristic $\eta$ and the neighborhood $neighbor()$ of the already expanded nodes. In the $localPheromoneUpdate()$, the pheromone gets decreased on the already used path to increase exploration and reduce the chance of convergence towards a local minimum. When $solution$(expandedNodes) is true, a solution is found and is returned with the updated pheromone level $\varphi$.
 \begin{algorithm}[h]
@@ -84,6 +90,9 @@ In algorithm \ref{alg:solution} the schematic implementation of the $createSolut
 
 \subsubsection{Local Pheromone Update}
 %TODO: write formula!
+%self._triangulation.get_shallow_copy_graph().edges[edge]['pheromone'] = \
+%self._triangulation.get_shallow_copy_graph().edges[edge]['pheromone'] * (1 - self._xi) + \
+%self._xi * self._initial_pheromone
 \subsubsection{Heuristic}
 The purpose of the heuristic is to provide additional guidance for the ant when making the decision which node to expand next. Especially in earlier iterations when the algorithm has not learned much yet (via pheromones) the heuristic can lead to better quality solutions. The overall cost of a built solution is roughly proportional to the length of the rings. The aim is to estimate the additional cost of expanding a node, so the ant can chose the one with the lowest cost. When adding a node (which represents a triangle) the length of the ring increases by the perimeter of the triangle minus two times the shared side (see Figure \ref{fig:heuristic} a)).
 \input{figures/approach/heuristic} \\

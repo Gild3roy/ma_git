@@ -23,6 +23,8 @@ An electric grid is the infrastructure, which enables the distribution of electr
 
 \textbf{Transformers}: Transform the voltage from one voltage level to another one. A transformer therefore can also be seen as a generator or source within a certain voltage level.
 
+(\textbf{Slack bus}: In power flow studies, the slack bus is used to provide for system losses by emitting or absorbing active and reactive power to and from the system. It is usually located at the transformer connecting to the higher voltage level.)
+
 \subsection{Structure}
 To increase efficiency, the grid is usually separated into three different voltage levels: high-(HV), medium-(MV) and low-voltage (LV).
 
@@ -30,12 +32,13 @@ To increase efficiency, the grid is usually separated into three different volta
 
 \textbf{MV grids} connect smaller power plants, factories and transformer stations to the low-voltage (LV) level. They operate at around 10 to 20 kV and are required to fulfill the n-1 criterion. So if one component of the MV grid fails, there is at least one built in redundancy to keep the grid functional.
 
-\textbf{LV grids} mostly transfer electricity from the transformer stations to the households. Due to the increasing decentralized feedin of electricity the MV grid also needs to be capable of transferring energy between households. They usually operate at voltages of around 0.4k V.
+\textbf{LV grids} mostly transfer electricity from the transformer stations to the households. Due to the increasing decentralized feedin of electricity the MV grid also needs to be capable of transferring energy between households. They usually operate at voltages of around 0.4k V.\\
 
-\input{figures/background/grid_schematic}
+
+\input{figures/background/grid_schematicc}
 %TODO: put in source of figure!
 % https://commons.wikimedia.org/wiki/File:Electricity_Grid_Schematic_English.svg
-
+%\input{figures/experiments/enwg_mv}
 
 \section{Ant Colony Optimization}
 ACO is inspired by the astonishing ability of real ants to find short paths between their nest to sources of food. Ants are mostly blind and coordinate their movements using pheromones, which they leave behind on their trails. Ants are able to sense the pheromones and tend to follow paths with a higher concentration of the messenger substance. Ants which probabilistically follow the paths with higher pheromone concentration again leave behind pheromones which increase the chance of other ants to also follow this trail. Over time, this leads to a convergence of ants to follow the path with the highest pheromone concentration.

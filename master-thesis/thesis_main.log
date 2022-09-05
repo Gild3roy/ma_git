@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  2 SEP 2022 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  5 SEP 2022 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,7 +332,10 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@cols=\count275
 \TX@ftn=\toks23
 )
-(C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svg\svg.sty
+(C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box57
+) (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/latex/svg\svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
 
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
@@ -387,7 +390,7 @@ Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
 \c@svg@param@lastpage=\count276
-\svg@box=\box57
+\svg@box=\box58
 \c@svg@param@currpage=\count277
 ) (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
@@ -432,7 +435,7 @@ til-common.tex
 til-common-lists.tex))
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
 til-latex.def
-\pgfutil@abb=\box58
+\pgfutil@abb=\box59
 )
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfr
 cs.code.tex
@@ -971,7 +974,7 @@ Package: expl3 2022-08-23 L3 programming layer (loader)
 pdftex.def
 File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box59
+\l__pdf_internal_box=\box60
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
@@ -1229,9 +1232,9 @@ nment
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count310
 \float@exts=\toks39
-\float@box=\box60
+\float@box=\box61
 \@float@everytoks=\toks40
-\@floatcapt=\box61
+\@floatcapt=\box62
 )
 Package scrhack Info: loading float hack on input line 32.
 
@@ -1302,7 +1305,7 @@ il.code.tex)
 rser.code.tex
 \pgfmath@dimen=\dimen185
 \pgfmath@count=\count319
-\pgfmath@box=\box62
+\pgfmath@box=\box63
 \pgfmath@toks=\toks42
 \pgfmath@stack@operand=\toks43
 \pgfmath@stack@operation=\toks44
@@ -1364,9 +1367,9 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box63
-\pgf@hbox=\box64
-\pgf@layerbox@main=\box65
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
 \pgf@picture@serial@count=\count321
 )
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
@@ -1412,7 +1415,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box66
+\pgfexternal@startupbox=\box67
 ))
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corelayers.code.tex
@@ -1433,7 +1436,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 uleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box67
+\pgfnodeparttextbox=\box68
 )
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 uleplot.code.tex
@@ -1488,10 +1491,10 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen276
 \tikzleveldistance=\dimen277
 \tikzsiblingdistance=\dimen278
-\tikz@figbox=\box68
-\tikz@figbox@bg=\box69
-\tikz@tempbox=\box70
-\tikz@tempbox@bg=\box71
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
 \tikztreelevel=\count325
 \tikznumberofchildren=\count326
 \tikznumberofcurrentchild=\count327
@@ -1518,7 +1521,7 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 sty
 Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
 \MT@toks=\toks47
-\MT@tempbox=\box72
+\MT@tempbox=\box73
 \MT@count=\count333
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
 LaTeX Info: Redefining \leftprotrusion on input line 1046.
@@ -1548,7 +1551,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip88
 \enit@outerparindent=\dimen280
 \enit@toks=\toks48
-\enit@inbox=\box73
+\enit@inbox=\box74
 \enit@count@id=\count335
 \enitdp@description=\count336
 )
@@ -1589,48 +1592,44 @@ Package hyperref Info: Option `plainpages' set `false' on input line 120.
 \c@todos=\count344
 \c@extends=\count345
 \c@drafts=\count346
-) (thesis_main.aux
-
-LaTeX Warning: Label `fig:tri' multiply defined.
-
-)
+) (thesis_main.aux)
 \openout1 = `thesis_main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-Package scrbase Info: activating english \partname on input line 39.
-Package scrbase Info: activating english \chaptername on input line 39.
-Package scrbase Info: activating english \appendixname on input line 39.
-Package scrbase Info: activating english \figurename on input line 39.
-Package scrbase Info: activating english \tablename on input line 39.
-Package scrbase Info: activating english \contentsname on input line 39.
-Package scrbase Info: activating english \listfigurename on input line 39.
-Package scrbase Info: activating english \listtablename on input line 39.
-Package scrbase Info: activating english \bibname on input line 39.
-Package scrbase Info: activating english \indexname on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+Package scrbase Info: activating english \partname on input line 40.
+Package scrbase Info: activating english \chaptername on input line 40.
+Package scrbase Info: activating english \appendixname on input line 40.
+Package scrbase Info: activating english \figurename on input line 40.
+Package scrbase Info: activating english \tablename on input line 40.
+Package scrbase Info: activating english \contentsname on input line 40.
+Package scrbase Info: activating english \listfigurename on input line 40.
+Package scrbase Info: activating english \listtablename on input line 40.
+Package scrbase Info: activating english \bibname on input line 40.
+Package scrbase Info: activating english \indexname on input line 40.
 
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count347
 \scratchdimen=\dimen294
-\scratchbox=\box74
+\scratchbox=\box75
 \nofMPsegments=\count348
 \nofMParguments=\count349
 \everyMPshowfont=\toks49
@@ -1655,7 +1654,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 40.
  (thesis_main.out) (thesis_main.out)
 \@outlinefile=\write4
 \openout4 = `thesis_main.out'.
@@ -1667,7 +1666,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 39.
+(scrbook)           before \begin{document} on input line 40.
 
 (C:\Users\Paul\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bookmark\bookmark.st
 y
@@ -1678,18 +1677,18 @@ def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count353
 ))
-LaTeX Info: Redefining \microtypecontext on input line 39.
-Package microtype Info: Applying patch `item' on input line 39.
-Package microtype Info: Applying patch `toc' on input line 39.
-Package microtype Info: Applying patch `eqnum' on input line 39.
-Package microtype Info: Applying patch `footnote' on input line 39.
+LaTeX Info: Redefining \microtypecontext on input line 40.
+Package microtype Info: Applying patch `item' on input line 40.
+Package microtype Info: Applying patch `toc' on input line 40.
+Package microtype Info: Applying patch `eqnum' on input line 40.
+Package microtype Info: Applying patch `footnote' on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 39.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: Adjustment of character kerning enabled.
@@ -1699,7 +1698,7 @@ Package microtype Info: Using default kerning set `alltext'.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Option `pageanchor' set `false' on input line 43.
+Package hyperref Info: Option `pageanchor' set `false' on input line 44.
  (chapters/0_0-titlepage_en.tex
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 6.
@@ -1783,17 +1782,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-Package tocbasic Info: character protrusion at toc deactivated on input line 55
+Package tocbasic Info: character protrusion at toc deactivated on input line 56
 .
  (thesis_main.toc [5])
 \tf@toc=\write5
 \openout5 = `thesis_main.toc'.
 
  [6]
-Package tocbasic Info: character protrusion at lof deactivated on input line 56
+Package tocbasic Info: character protrusion at lof deactivated on input line 57
 .
 
-(thesis_main.lof [7
+(thesis_main.lof
+Overfull \hbox (94.2005pt too wide) in paragraph at lines 5--5
+ \T1/lmr/m/n/10.95 (-20) Source: https://commons.wikimedia.org/wiki/File:Electr
+icity$[]$Grid$[]$Schematic$[]$English.svg[] [][]  
+ []
+
+[7
 
 
 ])
@@ -1801,7 +1806,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 56
 \openout6 = `thesis_main.lof'.
 
  [8]
-Package tocbasic Info: character protrusion at lot deactivated on input line 57
+Package tocbasic Info: character protrusion at lot deactivated on input line 58
 .
  (thesis_main.lot)
 \tf@lot=\write7
@@ -1814,18 +1819,18 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 57
 
 
 ]
-Package tocbasic Info: character protrusion at loa deactivated on input line 58
+Package tocbasic Info: character protrusion at loa deactivated on input line 59
 .
  (thesis_main.loa)
 \tf@loa=\write8
 \openout8 = `thesis_main.loa'.
 
-Package hyperref Info: Option `pageanchor' set `true' on input line 59.
- [11]
-[12
+Package hyperref Info: Option `pageanchor' set `true' on input line 60.
+ [11] [12
 
 
-] (chapters/1-introduction.tex
+]
+(chapters/1-introduction.tex
 chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
@@ -1855,16 +1860,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 ]
 chapter 3.
-[9] (figures/background/grid_schematic.tex
-<figures/background/grid_schematic.pdf, id=284, 1172.88188pt x 1541.76pt>
-File: figures/background/grid_schematic.pdf Graphic file (type pdf)
-<use figures/background/grid_schematic.pdf>
-Package pdftex.def Info: figures/background/grid_schematic.pdf  used on input l
-ine 3.
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+[10] (figures/background/grid_schematicc.tex
+<figures/background/grid_schematicc.pdf, id=293, 1172.88188pt x 1541.76pt>
+File: figures/background/grid_schematicc.pdf Graphic file (type pdf)
+<use figures/background/grid_schematicc.pdf>
+Package pdftex.def Info: figures/background/grid_schematicc.pdf  used on input 
+line 3.
 (pdftex.def)             Requested size: 316.68234pt x 416.28076pt.
- [10]) [11 <./figures/background/grid_schematic.pdf>] (figures/background/aco_d
-ouble_bridge.tex
-<figures/background/aco_double_bridge.pdf, id=301, 519.86218pt x 401.58029pt>
+
+Overfull \hbox (56.10591pt too wide) in paragraph at lines 4--4
+\T1/lmr/m/n/10.95 (-20) https://commons.wikimedia.org/wiki/File:Electricity$[]$
+Grid$[]$Schematic$[]$English.svg| 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <./figures/background/grid_schematicc.pdf>] (figures/background/aco_double
+_bridge.tex
+<figures/background/aco_double_bridge.pdf, id=306, 519.86218pt x 401.58029pt>
 File: figures/background/aco_double_bridge.pdf Graphic file (type pdf)
 <use figures/background/aco_double_bridge.pdf>
 Package pdftex.def Info: figures/background/aco_double_bridge.pdf  used on inpu
@@ -1879,31 +1898,34 @@ Overfull \hbox (17.55167pt too wide) in paragraph at lines 3--4
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(figures/background/double_bridge_graph.tex
-<figures/background/double_bridge_graph.pdf, id=305, 262.0992pt x 205.72859pt>
+[12] (figures/background/double_bridge_graph.tex
+<figures/background/double_bridge_graph.pdf, id=315, 262.0992pt x 205.72859pt>
 File: figures/background/double_bridge_graph.pdf Graphic file (type pdf)
 <use figures/background/double_bridge_graph.pdf>
 Package pdftex.def Info: figures/background/double_bridge_graph.pdf  used on in
 put line 3.
 (pdftex.def)             Requested size: 131.04927pt x 102.86403pt.
-) [12]
+) [13 <./figures/background/aco_double_bridge.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13 <./figures/background/aco_double_bridge.pdf>] [14 <./figures/background/dou
-ble_bridge_graph.pdf>] [15] [16] (figures/background/tri.tex
-<figures/background/tri.pdf, id=354, 189.8292pt x 177.7842pt>
+ [14 <./figures/background/double_bridge_graph.pdf>] [15] [16] (figures/backgro
+und/tri.tex
+<figures/background/tri.pdf, id=358, 189.8292pt x 177.7842pt>
 File: figures/background/tri.pdf Graphic file (type pdf)
 <use figures/background/tri.pdf>
 Package pdftex.def Info: figures/background/tri.pdf  used on input line 3.
 (pdftex.def)             Requested size: 132.87952pt x 124.44806pt.
-) [17 <./figures/background/tri.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-(figures/background/aco_grid.tex
-<figures/background/aco_grid.pdf, id=369, 463.7325pt x 396.52138pt>
+[17] (figures/background/aco_grid.tex
+<figures/background/aco_grid.pdf, id=370, 463.7325pt x 396.52138pt>
 File: figures/background/aco_grid.pdf Graphic file (type pdf)
 <use figures/background/aco_grid.pdf>
 Package pdftex.def Info: figures/background/aco_grid.pdf  used on input line 3.
@@ -1913,14 +1935,14 @@ Package pdftex.def Info: figures/background/aco_grid.pdf  used on input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) (chapters/4-approach.tex [18] [19 <./figures/background/aco_grid.pdf>]
-[20
+) [18 <./figures/background/tri.pdf>]) (chapters/4-approach.tex [19 <./figures/
+background/aco_grid.pdf>] [20
 
 
 ]
 chapter 4.
 (figures/approach/different_cost.tex
-<figures/approach/different_cost.pdf, id=394, 340.3917pt x 84.315pt>
+<figures/approach/different_cost.pdf, id=399, 340.3917pt x 84.315pt>
 File: figures/approach/different_cost.pdf Graphic file (type pdf)
 <use figures/approach/different_cost.pdf>
 Package pdftex.def Info: figures/approach/different_cost.pdf  used on input lin
@@ -1944,73 +1966,69 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 42.
  [24] (figures/approach/heuristic.tex
-<figures/approach/heuristic.pdf, id=441, 337.26pt x 102.3825pt>
+<figures/approach/heuristic.pdf, id=446, 337.26pt x 102.3825pt>
 File: figures/approach/heuristic.pdf Graphic file (type pdf)
 <use figures/approach/heuristic.pdf>
 Package pdftex.def Info: figures/approach/heuristic.pdf  used on input line 3.
 (pdftex.def)             Requested size: 303.53119pt x 92.14339pt.
-) [25 <./figures/approach/heuristic.pdf>] [26]
-Underfull \vbox (badness 2452) has occurred while \output is active []
-
- [27]
-(figures/approach/backandforth.tex
-<figures/approach/backandforth.pdf, id=481, 346.4142pt x 244.9953pt>
+) [25] [26 <./figures/approach/heuristic.pdf>] [27] (figures/approach/backandfo
+rth.tex
+<figures/approach/backandforth.pdf, id=485, 346.4142pt x 244.9953pt>
 File: figures/approach/backandforth.pdf Graphic file (type pdf)
 <use figures/approach/backandforth.pdf>
 Package pdftex.def Info: figures/approach/backandforth.pdf  used on input line 
 3.
 (pdftex.def)             Requested size: 311.76988pt x 220.49371pt.
-) [28 <./figures/approach/backandforth.pdf>]
-(figures/approach/busnosplit.tex
-<figures/approach/busnosplit.pdf, id=498, 376.52669pt x 146.4672pt>
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./figures/approach/backandforth.pdf>] (figures/approach/busnosplit.tex
+<figures/approach/busnosplit.pdf, id=508, 376.52669pt x 146.4672pt>
 File: figures/approach/busnosplit.pdf Graphic file (type pdf)
 <use figures/approach/busnosplit.pdf>
 Package pdftex.def Info: figures/approach/busnosplit.pdf  used on input line 3.
 
 (pdftex.def)             Requested size: 376.52576pt x 146.46683pt.
-) [29] (figures/approach/trifail.tex
-<figures/approach/trifail.pdf, id=505, 282.0939pt x 105.2733pt>
+) [30 <./figures/approach/busnosplit.pdf>] (figures/approach/trifail.tex
+<figures/approach/trifail.pdf, id=528, 282.0939pt x 105.2733pt>
 File: figures/approach/trifail.pdf Graphic file (type pdf)
 <use figures/approach/trifail.pdf>
 Package pdftex.def Info: figures/approach/trifail.pdf  used on input line 3.
 (pdftex.def)             Requested size: 253.88216pt x 94.74509pt.
 )
 (figures/approach/restarts.tex
-<figures/approach/restarts.png, id=510, 462.528pt x 346.896pt>
+<figures/approach/restarts.png, id=533, 462.528pt x 346.896pt>
 File: figures/approach/restarts.png Graphic file (type png)
 <use figures/approach/restarts.png>
 Package pdftex.def Info: figures/approach/restarts.png  used on input line 3.
 (pdftex.def)             Requested size: 370.02289pt x 277.51717pt.
-)
+) [31 <./figures/approach/trifail.pdf>] [32 <./figures/approach/restarts.png>])
+ (chapters/5-experiments.tex [33] [34
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[30 <./figures/approach/busnosplit.pdf>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[31 <./figures/approach/trifail.pdf>]) (chapters/5-experiments.tex [32 <./figur
-es/approach/restarts.png>]
+]
 chapter 5.
 (figures/experiments/enwg_mixed.tex
-<figures/experiments/enwg_mixed.png, id=545, 778.107pt x 493.845pt>
+<figures/experiments/enwg_mixed.png, id=558, 778.107pt x 493.845pt>
 File: figures/experiments/enwg_mixed.png Graphic file (type png)
 <use figures/experiments/enwg_mixed.png>
 Package pdftex.def Info: figures/experiments/enwg_mixed.png  used on input line
  3.
 (pdftex.def)             Requested size: 389.05254pt x 246.92189pt.
-) [33
-
-
-] [34 <./figures/experiments/enwg_mixed.png>] (figures/experiments/enwg_mv.tex
-<figures/experiments/enwg_mv.png, id=556, 776.9025pt x 493.845pt>
+) [35] [36 <./figures/experiments/enwg_mixed.png>] (figures/experiments/enwg_mv
+.tex
+<figures/experiments/enwg_mv.png, id=570, 776.9025pt x 493.845pt>
 File: figures/experiments/enwg_mv.png Graphic file (type png)
 <use figures/experiments/enwg_mv.png>
 Package pdftex.def Info: figures/experiments/enwg_mv.png  used on input line 3.
 
 (pdftex.def)             Requested size: 388.45029pt x 246.92189pt.
 ) (figures/experiments/enwg_zoom.tex
-<figures/experiments/enwg_zoom.png, id=558, 763.653pt x 241.50224pt>
+<figures/experiments/enwg_zoom.png, id=572, 763.653pt x 241.50224pt>
 File: figures/experiments/enwg_zoom.png Graphic file (type png)
 <use figures/experiments/enwg_zoom.png>
 Package pdftex.def Info: figures/experiments/enwg_zoom.png  used on input line 
@@ -2020,23 +2038,24 @@ Package pdftex.def Info: figures/experiments/enwg_zoom.png  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (figures/experiments/1000_iter/tri_plus_ant.tex
-<figures/experiments/1000_iter/tri_1000.png, id=561, 449.88075pt x 337.26pt>
+) [37 <./figures/experiments/enwg_mv.png>]
+(figures/experiments/1000_iter/tri_plus_ant.tex
+<figures/experiments/1000_iter/tri_1000.png, id=580, 449.88075pt x 337.26pt>
 File: figures/experiments/1000_iter/tri_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/tri_1000.png>
 Package pdftex.def Info: figures/experiments/1000_iter/tri_1000.png  used on in
 put line 5.
 (pdftex.def)             Requested size: 179.25116pt x 134.3767pt.
-<figures/experiments/1000_iter/tri_ant_1000.png, id=562, 449.88075pt x 334.851p
+<figures/experiments/1000_iter/tri_ant_1000.png, id=581, 449.88075pt x 334.851p
 t>
 File: figures/experiments/1000_iter/tri_ant_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/tri_ant_1000.png>
 Package pdftex.def Info: figures/experiments/1000_iter/tri_ant_1000.png  used o
 n input line 11.
 (pdftex.def)             Requested size: 179.25116pt x 133.41685pt.
- [35 <./figures/experiments/enwg_mv.png>]) (figures/experiments/1000_iter/pypsa
-_1000.tex
-<figures/experiments/1000_iter/pypsa_1000.png, id=571, 781.7205pt x 525.76425pt
+)
+(figures/experiments/1000_iter/pypsa_1000.tex
+<figures/experiments/1000_iter/pypsa_1000.png, id=584, 781.7205pt x 525.76425pt
 >
 File: figures/experiments/1000_iter/pypsa_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/pypsa_1000.png>
@@ -2044,13 +2063,12 @@ Package pdftex.def Info: figures/experiments/1000_iter/pypsa_1000.png  used on
 input line 3.
 (pdftex.def)             Requested size: 390.8593pt x 262.88147pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [36 <./figures/experiments/enwg_zoom.png> <./figures/experiments/1000_iter/tr
-i_1000.png> <./figures/experiments/1000_iter/tri_ant_1000.png>]
+ [38 <./figures/experiments/enwg_zoom.png> <./figures/experiments/1000_iter/tri
+_1000.png> <./figures/experiments/1000_iter/tri_ant_1000.png>])
 (figures/experiments/1000_iter/min_cost_1000.tex
-<figures/experiments/1000_iter/min_cost_1000.png, id=580, 462.528pt x 346.896pt
+<figures/experiments/1000_iter/min_cost_1000.png, id=593, 462.528pt x 346.896pt
 >
 File: figures/experiments/1000_iter/min_cost_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/min_cost_1000.png>
@@ -2061,9 +2079,9 @@ on input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [37 <./figures/experiments/1000_iter/pypsa_1000.png>]
+) [39 <./figures/experiments/1000_iter/pypsa_1000.png>]
 (figures/experiments/1000_iter/best_mv_1000.tex
-<figures/experiments/1000_iter/best_mv_1000.png, id=587, 467.94826pt x 337.8622
+<figures/experiments/1000_iter/best_mv_1000.png, id=600, 467.94826pt x 337.8622
 4pt>
 File: figures/experiments/1000_iter/best_mv_1000.png Graphic file (type png)
 <use figures/experiments/1000_iter/best_mv_1000.png>
@@ -2075,29 +2093,29 @@ n input line 3.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[38 <./figures/experiments/1000_iter/min_cost_1000.png>] [39 <./figures/experim
+[40 <./figures/experiments/1000_iter/min_cost_1000.png>] [41 <./figures/experim
 ents/1000_iter/best_mv_1000.png>]
 (figures/experiments/ringsize/ringsize_both.tex
-<figures/experiments/ringsize/size_8_9.png, id=603, 462.528pt x 336.0555pt>
+<figures/experiments/ringsize/size_8_9.png, id=617, 462.528pt x 336.0555pt>
 File: figures/experiments/ringsize/size_8_9.png Graphic file (type png)
 <use figures/experiments/ringsize/size_8_9.png>
 Package pdftex.def Info: figures/experiments/ringsize/size_8_9.png  used on inp
 ut line 6.
 (pdftex.def)             Requested size: 199.16931pt x 144.71127pt.
-<figures/experiments/ringsize/size_10.png, id=604, 464.33475pt x 334.851pt>
+<figures/experiments/ringsize/size_10.png, id=618, 464.33475pt x 334.851pt>
 File: figures/experiments/ringsize/size_10.png Graphic file (type png)
 <use figures/experiments/ringsize/size_10.png>
 Package pdftex.def Info: figures/experiments/ringsize/size_10.png  used on inpu
 t line 12.
 (pdftex.def)             Requested size: 199.16931pt x 143.63057pt.
-) [40 <./figures/experiments/ringsize/size_8_9.png> <./figures/experiments/ring
+) [42 <./figures/experiments/ringsize/size_8_9.png> <./figures/experiments/ring
 size/size_10.png>]
 (figures/experiments/plt_ant.tex
-<figures/experiments/plt_ant.pdf, id=618, 433.62pt x 289.08pt>
+<figures/experiments/plt_ant.pdf, id=632, 433.62pt x 289.08pt>
 File: figures/experiments/plt_ant.pdf Graphic file (type pdf)
 <use figures/experiments/plt_ant.pdf>
 Package pdftex.def Info: figures/experiments/plt_ant.pdf  used on input line 3.
@@ -2107,37 +2125,65 @@ Package pdftex.def Info: figures/experiments/plt_ant.pdf  used on input line 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[41] (figures/experiments/q_0.tex
-<figures/experiments/q_0.pdf, id=628, 433.62pt x 289.08pt>
+[43] (figures/experiments/q_0.tex
+<figures/experiments/q_0.pdf, id=640, 433.62pt x 289.08pt>
 File: figures/experiments/q_0.pdf Graphic file (type pdf)
 <use figures/experiments/q_0.pdf>
 Package pdftex.def Info: figures/experiments/q_0.pdf  used on input line 3.
 (pdftex.def)             Requested size: 346.89647pt x 231.2643pt.
-) [42 <./figures/experiments/plt_ant.pdf>]
-(figures/experiments/alpha_beta.tex
-<figures/experiments/alpha_beta.pdf, id=658, 462.52798pt x 346.89601pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (figures/experiments/alpha_beta.tex
+<figures/experiments/alpha_beta.pdf, id=642, 462.52798pt x 346.89601pt>
 File: figures/experiments/alpha_beta.pdf Graphic file (type pdf)
 <use figures/experiments/alpha_beta.pdf>
 Package pdftex.def Info: figures/experiments/alpha_beta.pdf  used on input line
  3.
 (pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
-
+) [44 <./figures/experiments/plt_ant.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) (chapters/6-conclusions.tex [43 <./figures/experiments/q_0.pdf>] [44 <./figu
-res/experiments/alpha_beta.pdf>]
+(figures/experiments/rho.tex
+<figures/experiments/rho.pdf, id=673, 462.52798pt x 346.89601pt>
+File: figures/experiments/rho.pdf Graphic file (type pdf)
+<use figures/experiments/rho.pdf>
+Package pdftex.def Info: figures/experiments/rho.pdf  used on input line 3.
+(pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45 <./figures/experiments/q_0.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (figures/experiments/xi.tex
+<figures/experiments/xi.pdf, id=700, 462.52798pt x 346.89601pt>
+File: figures/experiments/xi.pdf Graphic file (type pdf)
+<use figures/experiments/xi.pdf>
+Package pdftex.def Info: figures/experiments/xi.pdf  used on input line 3.
+(pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
+) [46 <./figures/experiments/alpha_beta.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (chapters/6-conclusions.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47 <./figures/experiments/rho.pdf>] [48 <./figures/experiments/xi.pdf>]
 chapter 6.
-[45
+[49
 
 
-] [46
+] [50
 
 
 ]
 chapter A.
 (figures/experiments/ringsize/ringsize89_2.tex
-<figures/experiments/ringsize/ringsize89_2.png, id=722, 735.34724pt x 528.17325
+<figures/experiments/ringsize/ringsize89_2.png, id=783, 735.34724pt x 528.17325
 pt>
 File: figures/experiments/ringsize/ringsize89_2.png Graphic file (type png)
 <use figures/experiments/ringsize/ringsize89_2.png>
@@ -2146,7 +2192,7 @@ Package pdftex.def Info: figures/experiments/ringsize/ringsize89_2.png  used on
 (pdftex.def)             Requested size: 294.13368pt x 211.26555pt.
 )
 (figures/experiments/ringsize/ringsize10_2.tex
-<figures/experiments/ringsize/ringsize10_2.png, id=723, 732.93825pt x 502.87875
+<figures/experiments/ringsize/ringsize10_2.png, id=784, 732.93825pt x 502.87875
 pt>
 File: figures/experiments/ringsize/ringsize10_2.png Graphic file (type png)
 <use figures/experiments/ringsize/ringsize10_2.png>
@@ -2157,24 +2203,21 @@ Package pdftex.def Info: figures/experiments/ringsize/ringsize10_2.png  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)) (thesis_main.bbl [47 <./figures/experiments/ringsize/ringsize89_2.png>]
-[48 <./figures/experiments/ringsize/ringsize10_2.png>] [49
+)) (thesis_main.bbl [51 <./figures/experiments/ringsize/ringsize89_2.png>]
+[52 <./figures/experiments/ringsize/ringsize10_2.png>] [53
 
 
-]) [50] [51]
+]) [54] [55]
 (thesis_main.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `thesis_main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31702 strings out of 477809
- 630644 string characters out of 2820568
- 1154875 words of memory out of 3000000
- 49482 multiletter control sequences out of 15000+600000
- 580498 words of font info for 225 fonts, out of 8000000 for 9000
+ 31816 strings out of 477809
+ 633075 string characters out of 2820568
+ 1153213 words of memory out of 3000000
+ 49574 multiletter control sequences out of 15000+600000
+ 580888 words of font info for 229 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,12n,106p,10764b,645s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Paul/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -2200,9 +2243,9 @@ eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Paul/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Paul/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Paul/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis_main.pdf (65 pages, 2622056 bytes).
+Output written on thesis_main.pdf (69 pages, 2648989 bytes).
 PDF statistics:
- 987 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
- 61911 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 176 named destinations out of 1000 (max. 500000)
+ 61921 words of extra memory for PDF output out of 74296 (max. 10000000)
 
