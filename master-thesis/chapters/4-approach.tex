@@ -6,7 +6,7 @@ The goal of the ACO algorithm in grid planning is to connect the loads and gener
 \input{figures/approach/different_cost} \\
 The left triangle has a cost of five, the right triangle a cost of three and their hulls when combined a cost of six. If the edge starts at the incenter of the left triangle and expands the right triangle additional cost of one are added to the hull ($5+3-2$, since the shared side of the triangles needs to be subtracted). Therefore, one could assign cost of one to the edge. But in the reverse case, the left triangle adds three to the cost of the hull ($3+5-2$).
 
-Additionally, two electric side constraints need to be fulfilled. The maximum capacity of the power flow on a transmission line must never be exceeded. Similarly, the voltage violation limits of load buses in the network must be satisfied. In the case of MV grids in Germany according to DIN EN 50160 the voltage deviation at any bus at any time must not exceed a limit of  $\pm$ 5\%. The power that flows through a line segment shall never be more than 50\% of the lines capacity. To calculate the voltages and power flows in the network a power flow analysis is required.
+Additionally, two electric side constraints need to be fulfilled. The maximum capacity of the power flow on a transmission line must never be exceeded. Similarly, the voltage violation limits of load buses in the network must be satisfied. In the case of MV grids in Germany according to DIN EN 50160 the voltage deviation at any bus at any time must not exceed a limit of  $\pm$ 5\%. The power that flows through a line segment shall never be more than 50\% of the lines capacity. To calculate the voltages and power flows in the network a power flow analysis (PFA) is required.
 
 %According to DIN EN 50160, under normal operating conditions, 95\% of the 10-minute average of the measured RMS value of each weekly interval must be within the limits of ±10\% of the nominal voltage.
 
@@ -64,15 +64,14 @@ In algorithm \ref{alg:high_level} the high-level implementation of the APMV is s
 \end{algorithm}
 
 \subsubsection{Global Pheromone Update}
-%TODO: write formula
 The global pheromone update is performed once after each iteration and deposits additional pheromones on the nodes expanded by the best solution found so far. Over time this enables the algorithms to learn from previous iterations which nodes generally lead to good or bad solutions. The formula for the global pheromone update on all visited nodes $i$ of the best solution is the following:
 $$\varphi_i = (1-\rho) \varphi_i + \rho \frac{c_{est}}{c_{best}},$$
-where $\rho \in (0,1)$, $c_{best}$ are the cost of the best solution found so far and $c_{est}$ are the estimated cost of the solution. The reciprocal of the $c_{best}$ is normalized by the $c_{est}$ to better reflect the quality of the solution. Low cost solutions receive high amounts of pheromone and vice versa.
+where $\rho \in (0,1)$, $c_{best}$ are the cost of the best solution found so far and $c_{est}$ are the estimated cost of the solution. The reciprocal of the $c_{best}$ is is used such that low cost are rewarded by high amounts of pheromone. It is normalized by the $c_{est}$ to better reflect the quality of the solution. As long as $\frac{c_{est}}{c_{best}} > \varphi_i$ the pheromone increases. Otherwise, the pheromone level can also decrease.
 %amount = estimated_min_expansion_cost / min_cost
 %pheromone_i = pheromone_i * (1-rho) + amount * rho
 
 \subsection{Solution Creation of Ants}
-In algorithm \ref{alg:solution} the schematic implementation of the $createSolution()$ function is shown. The expanded nodes are ant nodes and the $solution()$ method checks whether the hull of the set expandedNodes covers all stations. The $expand()$ method finds the next node which should be added and depends on the pheromones $\varphi$, the heuristic $\eta$ and the neighborhood $neighbor()$ of the already expanded nodes. In the $localPheromoneUpdate()$, the pheromone gets decreased on the already used path to increase exploration and reduce the chance of convergence towards a local minimum. When $solution$(expandedNodes) is true, a solution is found and is returned with the updated pheromone level $\varphi$.
+In algorithm \ref{alg:solution} the schematic implementation of the $createSolution()$ function is shown. The expanded nodes are ant nodes and the $solution()$ method checks whether the hull of the set expandedNodes covers all stations. The $expand()$ method finds the next node which should be added and depends on the pheromones $\varphi$, the heuristic $\eta$ and the neighborhood $neighbor()$ of the already expanded nodes. In the $localPheromoneUpdate()$, the pheromone gets decreased on the already used path to increase exploration and reduce the chance of convergence towards a local minimum. When $solution$(expandedNodes) is true, a solution is found and is returned with the updated pheromone level $\varphi$. 
 \begin{algorithm}[h]
 	\caption{createSolution}
 	\label{alg:solution}
@@ -89,7 +88,10 @@ In algorithm \ref{alg:solution} the schematic implementation of the $createSolut
 \end{algorithm}
 
 \subsubsection{Local Pheromone Update}
-%TODO: write formula!
+The local pheromone update is executed every time the ant expands a new node and generally reduces the amount of pheromone on that node. This should increase the chance of other ants to use different paths instead and therefore increase exploration. The pheromone level of node $i$ gets updated via the following rule:
+
+$$\varphi_i = (1-\xi)\varphi_i + \xi \varphi_{init},$$
+where the parameter $\xi$ determines, how much the pheromone level should revert back to the initial pheromone level $\varphi_{init}$. 
 %self._triangulation.get_shallow_copy_graph().edges[edge]['pheromone'] = \
 %self._triangulation.get_shallow_copy_graph().edges[edge]['pheromone'] * (1 - self._xi) + \
 %self._xi * self._initial_pheromone
@@ -115,10 +117,10 @@ $$cost(x) = b(d(x), c(x)) + e(x),$$
 where $x$ is the network of the solution, $d(x)$ are the digging cost and $c(x)$ are the cable cost. The building cost and the penalty term will be discussed in more detail below.
 
 \subsubsection{Building cost}
-Concerning the cost of building lines, there are the acquisition costs of new transmission lines and the digging costs of laying the new cables into the ground. As an estimation for standard MV lines are taken cable cost of 130.000 Euro/km and digging cost of 100.000 Euro/km. These values of course fluctuate over time and have to be adapted for the specific situation. If the algorithm suggests building a line between two buses where a line already exists the costs are set to zero, assuming they can still be used in the future. For new transmission lines, the algorithms tries to predict the length and where the cable is laid along via the street network. Usually, cables are laid next to streets for better access and less invasive construction works. This is taken into account by using a tool developed by John, which uses data from open street map to find the distance and the path between two network stations along streets \cite{robert_john}. John first creates a graph from open street map in a given area, connects the network stations to it and then calculates the shortest path between the stations using Dijkstra. If the distance between two stations cant be estimated via open street map, the straight distance calculated via the haversine formula times $1.2$ is used.
+Concerning the cost of building lines, there are the acquisition costs of new transmission lines and the digging costs of laying the new cables into the ground. As an estimation for standard MV lines are taken cable cost of 130K Euro/km and digging cost of 100K Euro/km. These values of course fluctuate over time and have to be adapted for the specific situation. If the algorithm suggests building a line between two buses where a line already exists the costs are set to zero, assuming they can still be used in the future. For new transmission lines, the algorithms tries to predict the length and where the cable is laid along via the street network. Usually, cables are laid next to streets for better access and less invasive construction works. This is taken into account by using a tool developed by John, which uses data from open street map to find the distance and the path between two network stations along streets \cite{robert_john}. John first creates a graph from open street map in a given area, connects the network stations to it and then calculates the shortest path between the stations using Dijkstra. If the distance between two stations cannot be estimated via open street map, the straight distance calculated via the haversine formula times $1.2$ is used.
 
 \subsubsection{Penalty term}
-The second part of the costs is a penalty term accounting for voltage violations of buses and loading violations of lines of the target grid. Therefore, a load flow analysis is conducted, which calculates the voltages and angles on all components of the network. If values exceed their limits penalties are added to the cost. These penalty costs are much greater in comparison to building costs. Thereby, the ants get rewarded much more by finding solutions without load flow violations. This almost guarantees that a convergence towards a solution has either no load flow violations at all or it is impossible to find a solution without it.
+The second part of the costs is a penalty term accounting for voltage violations of buses and loading violations of lines of the target grid. Therefore, a PFA is conducted, which calculates the voltages at all buses and the power flowing in each line of the network. If values exceed their limits penalties are added to the cost. These penalty costs are much greater in comparison to building costs. Thereby, the ants get rewarded much more by finding solutions without load flow violations. With enough iterations this practically guarantees that a convergence towards a solution has either no load flow violations at all or it is impossible to find a solution without it.
 
 %TODO: check load flow analysis again!
 %voltage deviations for buses
@@ -143,4 +145,8 @@ A worst case scenario is depicted in Figure \ref{fig:trifail}. There can exist a
 The approach of APMW is to prevent the expansion of critical triangles which could lead to faulty network structures already during the solution building process. The reason not to fix an invalid solution in a postprocessing step is that it seems more practical. Without preventing the expansion of certain triangles it is impossible to trace back and classify the exact reasons for a solution building attempt failed in hindsight. And without this classification of errors a reasonable "repairing" is very difficult. For future work it might be an interesting task to find a simple postprocessing procedure which fixes solutions created with an unrestricted expand method. This would prevent the need for restarting and could therefore speedup the algorithms runtime.
 
 \subsection{Run Time}
-%TODO: check Jonathan for runtime
+The time complexity of the algorithm mainly depends on the number of constructed solutions $n_{col} n_{ants} n_{iter}$ and the size of the network, where $n_{col}$ is the number of colonies, $n_{ants}$ is the number of ants and $n_{iter}$ is the number of iterations. Every constructed solution performs a PFA which has a time complexity of $O(B^3)$ in the worst-case, with $B$ being the number of buses. Additionally, every solution must expand nodes until all nodes are covered. This could take up to $B$ expansion steps. In the decision process the ant needs to consider up to $B$ possibilities which bus to expand next. This leads to $O(B^2)$ steps in the worst-case. In total this sums up to a runtime of $O(n_{col} n_{ants} n_{iter} (B^3+B^2))$. However, depending on the structure of the grid and the input parameters an arbitrary number of restarts of the ant could slow down the algorithm indefinitely.
+
+
+
+

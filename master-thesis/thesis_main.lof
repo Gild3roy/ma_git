@@ -11,9 +11,9 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces The cost of an ant edge depends on the node from which it is getting expanded.\relax }}{22}{figure.caption.12}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Calculating the heuristic value.\relax }}{26}{figure.caption.19}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Problematic case of building a ring via the hull of the ant graph.\relax }}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Handling of overlapping rings.\relax }}{30}{figure.caption.27}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Limitations of triangulation and limited ring size.\relax }}{31}{figure.caption.28}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Number of restarts for different maximal ring sizes.\relax }}{32}{figure.caption.29}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Handling of overlapping rings.\relax }}{31}{figure.caption.27}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Limitations of triangulation and limited ring size.\relax }}{32}{figure.caption.28}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Number of restarts for different maximal ring sizes.\relax }}{33}{figure.caption.29}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {12}{\ignorespaces The grid used for testing. (internally developed tool used for visualization)\relax }}{36}{figure.caption.30}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Middle voltage part of the grid.\relax }}{37}{figure.caption.31}%
@@ -32,6 +32,6 @@
 \contentsline {figure}{\numberline {26}{\ignorespaces Minimal cost since start for different values of $\xi $.\relax }}{48}{figure.caption.50}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27}{\ignorespaces Max. 8/9 buses per ring (MV)\relax }}{51}{figure.caption.53}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Max. ten buses per ring (MV)\relax }}{52}{figure.caption.54}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Solution with a maximum of 8 or 9 buses per ring. Two rings are built (marked yellow and green).\relax }}{55}{figure.caption.52}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Solution with maximum of 10 buses per ring.\relax }}{55}{figure.caption.53}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

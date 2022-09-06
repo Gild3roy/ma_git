@@ -2,13 +2,13 @@
 
 \section{Settings}
 \subsection{Libraries}\label{pypsa}
-A key role for the implementation plays \textit{PyPSA} (Python for Power System Analysis) \cite{brown2017pypsa}, which is a toolbox to simulate and optimize power systems. The components of its network container are very closely related to the network components presented in section \ref{sec:components}. \textit{PyPSA's} Buses are the fundamental nodes to which all loads, generators, lines and transformers attach. According to Kirchhoff's current law everything feeding in out of the buses is balanced out to enforce energy conservation. The data is stored in \textit{pandas} DataFrames to enable efficient calculations. \textit{PyPSA} is also able to perform a power flow analysis on the network via the \textit{Newton-Raphson} method. Among other uses, this is especially important for the calculation of the penalty term. \textit{Networkx} is used by the algorithm to store and modify the graph which represents the electric grid.
+A key role for the implementation plays \textit{PyPSA} (Python for Power System Analysis) \cite{brown2017pypsa}, which is a toolbox to simulate and optimize power systems. The components of its network container are very closely related to the network components presented in section \ref{sec:components}. \textit{PyPSA's} Buses are the fundamental nodes to which all loads, generators, lines and transformers attach. According to Kirchhoff's current law everything feeding in out of the buses is balanced out to enforce energy conservation. The data is stored in \textit{pandas} DataFrames to enable efficient calculations. \textit{PyPSA} is also able to perform a PFA on the network via the \textit{Newton-Raphson} method. Among other uses, this is especially important for the calculation of the penalty term. \textit{Networkx} is used by the algorithm to store and modify the graph which represents the electric grid.
 
-\subsection{Example Grid}
+\subsection{Example Grid}\label{sec:example_grid}
 For testing and evaluating the algorithm the grid of a village in rural Germany is used (exact name and location is omitted due to data protection). It is a mixed grid which consists of a medium and low voltage level. It connects to the higher voltage level from the south (cut off). It consists of 1857 buses, 1851 lines, 16 MV/LV transformer stations which connect the medium voltage level to the underlying low voltage level and 1 HV/MV transformer which connects the whole network to the upstream high voltage grid. \\
 Although the network contains only 17 transformers, the number of possible rings, which connect the transformers is very large ($\frac{17!}{2} \approx 1.77*10^{14}$ [number of permutations divided by two, since the exact reverse order of stations is considered the same ring]). That is why even on this example a naive brute force approach would not suffice.\\
 \input{figures/experiments/enwg_mixed}
-\subsection{Grid Extraction}\label{sec:extraction}
+\subsection{MV Grid Extraction}\label{sec:extraction}
 The algorithm was specifically designed for the medium voltage level and therefore the input grid needs to fulfill the following requirements:
 \begin{itemize}
 	\setlength\itemsep{-1em}
@@ -44,7 +44,9 @@ The best result found by APMV is shown in Figure \ref{fig:pypsa_1000}. Most of t
 \input{figures/experiments/1000_iter/min_cost_1000}
 
 The associated costs are depicted in Figure \ref{fig:min_cost_1000}. The minimal cost found by the algorithm declines rapidly in the first iterations and then plateaus out after a small drop at around iteration 150. This last decrease in cost was not captured by other runs, since they were capped at 100 iterations. The step-wise decrease in cost is due to a new and cheaper routing being found (drop) after which the algorithm produces only equal or worse solutions (plateau). Important to notice, is that the minimal found cost of ca. 229K Euro does not reflect the total cost of the network, but only the lines additionally built by the algorithm. Already existing lines do not appear in the cost function since their cost is zero. To calculate the total cost of the solution including the existing lines, all lines were considered to be newly built by the algorithm in a post processing step. This lead to a cost of 1.95M Euro. This cost can now be compared to the same calculation done with the extracted MV grid of the input. This results in costs of 2.17M Euros. The found solution of the algorithm is therefore only 89\% of the cost of the input grid.
-%TODO: use other cost func, to make it consistent!
+%TODO: use other min cost graph, to make it consistent?!
+%TODO: maybe add runtime and computational power of the used system.
+
 
 
 \input{figures/experiments/1000_iter/best_mv_1000}
@@ -88,10 +90,22 @@ The parameters $\alpha$ and $\beta$ describe how much the ants decision process 
 \input{figures/experiments/rho}
 The last parameters to study are $\rho$ and $\xi$, which influence how the pheromones are updated. $\rho$ determines how much pheromone is added during the global pheromone update and $\xi$ determines the amount of pheromone being removed during the local pheromone update. The global pheromone update is performed at the end of an iteration and only applies for the best built solution. Its goal is to reward good solutions such that future iterations can use high pheromone trails as guidance. The local pheromone update occurs every time an ant expands a new node and reduces its pheromone level. This promotes the usage of new paths and therefore a greater exploration of the search space. Figure \ref{fig:rho} shows that for $\rho$ all values yield fairly good results. For the tested network the best solution can actually be found for $\rho = 0$, which means that the global pheromone update does not change the value of the pheromones according to the best solution. This is surprising since it is a necessary step of the algorithm in order to learn from previous iterations. The reason for the good performance for $\rho = 0$ might be that for higher values of $\rho$ the ant lingers for a longer time in a local optimum (due to a previously found solution) instead of exploring more of the search space. More iterations could help to see whether the cheapest solution would be found (by values of $\rho > 0$) eventually. \\
 \input{figures/experiments/xi}
-Figure \ref{fig:xi} depicts the minimum cost found for different values of $\xi$. Best results are achieved for the higher values $\xi = 0.3$ and $\xi = 0.2$. A higher value of $\xi$ means that the pheromone of used nodes is converging back faster to its base level and therefore more exploration. This finding fits with previous results for parameter $\rho$.
+Figure \ref{fig:xi} depicts the minimum cost found for different values of $\xi$. Best results are achieved for the higher values $\xi = 0.3$ and $\xi = 0.2$. A higher value of $\xi$ means that the pheromone of used nodes is converging back faster to its base level and therefore more exploration. This finding fits with previous results for the study of parameter $\rho$.
 
-\subsection{Runtime}
-\subsection{Discussion}\label{sec:discussion}
-\subsubsection{Triangulation and Parallel Lines}
-	- kann eigentlich keine parallelen ringe. (diese sind aber anscheinend in Nutzung)
-	- bessere Sicherheit ohne parallele lines?
+\subsection{Discussion of Triangulation and Parallel Lines}\label{sec:discussion}
+As presented in section \ref{sec:example_grid}, the example grid uses parallel lines to maintain the required ring structure for medium voltage grids. This increases security of electricity supply, since damage to a singular line does not lead to a power outage. A common source of transmission line failure is that cable sleeves, which are used to connect cables, pull water from the surrounding soil. Such failures only affect single lines and can be prevented from leading to power outages by using a secondary parallel line. In case of greater accidents caused by large construction works or natural disasters parallel lines do not necessarily provide additional safety since damage at one cable mostly also affects the secondary one. Here, a ring structure without parallel lines would provide more security. Allowing lines to be built in parallel however also reduces cost, since multiple cables could be laid into the same trench. \\
+In the case of APMV, the algorithm uses the triangulation and the hull of the ant graph to build rings and therefore parallel lines are generally not provided for. When two buses should be connected by a line (and no line already exists between them), the shortest route along roads is used to lay the cable. This coincidentally can result in parallel lines as can be seen in in the upper right part of Figure \ref{fig:pypsa_1000}, but does not have to. This is also the reason why the algorithm does not simply return the input grid although existing lines can be reused at zero cost. Especially, if the input network has fewer already existing lines, the chance of parallel lines decreases. In future work, an additional option could be implemented to specifically allow or prevent the algorithm from building parallel lines.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

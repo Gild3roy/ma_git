@@ -25,12 +25,12 @@
 \contentsline {subsubsection}{\nonumberline Global Pheromone Update}{24}{subsubsection*.14}%
 \contentsline {subsection}{\numberline {4.2.3}Solution Creation of Ants}{25}{subsection.4.2.3}%
 \contentsline {subsubsection}{\nonumberline Local Pheromone Update}{25}{subsubsection*.16}%
-\contentsline {subsubsection}{\nonumberline Heuristic}{25}{subsubsection*.18}%
-\contentsline {subsubsection}{\nonumberline Expansion rule}{26}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline Heuristic}{26}{subsubsection*.18}%
+\contentsline {subsubsection}{\nonumberline Expansion rule}{27}{subsubsection*.21}%
 \contentsline {subsection}{\numberline {4.2.4}Cost function}{27}{subsection.4.2.4}%
-\contentsline {subsubsection}{\nonumberline Building cost}{27}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline Building cost}{28}{subsubsection*.23}%
 \contentsline {subsubsection}{\nonumberline Penalty term}{28}{subsubsection*.25}%
-\contentsline {subsection}{\numberline {4.2.5}The Back-and-Forth Case}{28}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.5}The Back-and-Forth Case}{29}{subsection.4.2.5}%
 \contentsline {subsection}{\numberline {4.2.6}Multiple Rings}{30}{subsection.4.2.6}%
 \contentsline {subsection}{\numberline {4.2.7}Ring Size and Triangulation}{31}{subsection.4.2.7}%
 \contentsline {subsection}{\numberline {4.2.8}Run Time}{33}{subsection.4.2.8}%
@@ -38,17 +38,15 @@
 \contentsline {section}{\numberline {5.1}Settings}{35}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Libraries}{35}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Example Grid}{35}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Grid Extraction}{36}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.3}MV Grid Extraction}{36}{subsection.5.1.3}%
 \contentsline {section}{\numberline {5.2}Results}{39}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Parameterstudy}{40}{subsection.5.2.1}%
 \contentsline {subsubsection}{\nonumberline Control Maximum Number of Stations per Ring}{41}{subsubsection*.38}%
 \contentsline {subsubsection}{\nonumberline Control Number of Constructed Solutions}{43}{subsubsection*.41}%
 \contentsline {subsubsection}{\nonumberline Control Expansion Rule}{44}{subsubsection*.44}%
 \contentsline {subsubsection}{\nonumberline Control Pheromone Update}{46}{subsubsection*.48}%
-\contentsline {subsection}{\numberline {5.2.2}Runtime}{48}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Discussion}{48}{subsection.5.2.3}%
-\contentsline {subsubsection}{\nonumberline Triangulation and Parallel Lines}{48}{subsubsection*.52}%
-\contentsline {chapter}{\numberline {6}Conclusion}{49}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Experiments}{51}{appendix.A}%
-\contentsline {chapter}{Bibliography}{54}{chapter*.55}%
+\contentsline {subsection}{\numberline {5.2.2}Discussion of Triangulation and Parallel Lines}{48}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{51}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{55}{appendix.A}%
+\contentsline {chapter}{Bibliography}{58}{chapter*.54}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
