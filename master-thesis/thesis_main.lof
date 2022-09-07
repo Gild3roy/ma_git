@@ -2,36 +2,36 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Schematic depiction of the electricity grid common in Germany. Source: https://commons.wikimedia.org/wiki/File:Electricity$\_$Grid$\_$Schematic$\_$English.svg\relax }}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Double Bridge Experiment. Two paths of different length lead from the start to the food source.\relax }}{13}{figure.caption.8}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Model of the Double Bridge Experiment as a graph. The long branch consists of two edges (Start, Way), (Way, Food)\relax }}{14}{figure.caption.9}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Delaunay Triangulation of a set of buses and a transformer.\relax }}{18}{figure.caption.10}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Building a solution on the ant graph.\relax }}{19}{figure.caption.11}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Schematic depiction of the electricity grid}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Double Bridge Experiment}}{13}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Graph model of Double Bridge}}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Delaunay Triangulation}}{18}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Ant Graph}}{19}{figure.caption.10}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6}{\ignorespaces The cost of an ant edge depends on the node from which it is getting expanded.\relax }}{22}{figure.caption.12}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Calculating the heuristic value.\relax }}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Problematic case of building a ring via the hull of the ant graph.\relax }}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Handling of overlapping rings.\relax }}{31}{figure.caption.27}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Limitations of triangulation and limited ring size.\relax }}{32}{figure.caption.28}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Number of restarts for different maximal ring sizes.\relax }}{33}{figure.caption.29}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Cost of ant edge}}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Heuristic value}}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Problematic case of building a ring}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Overlapping rings}}{31}{figure.caption.26}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Limited ring size}}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Number of restarts}}{33}{figure.caption.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12}{\ignorespaces The grid used for testing. (internally developed tool used for visualization)\relax }}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Middle voltage part of the grid.\relax }}{37}{figure.caption.31}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Parallel lines in the ring of the MV grid.\relax }}{38}{figure.caption.32}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Triangulation.\relax }}{38}{figure.caption.33}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Ant graph.\relax }}{38}{figure.caption.33}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Result network of best found MV grid.\relax }}{39}{figure.caption.34}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Minimal cost found since the start.\relax }}{40}{figure.caption.35}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Schematic view of the best found MV grid. The "hubs" resemble MV/LV trafos which need to be connected to "7116" - the HV/MV trafo. Newly created lines by the algorithm are marked red.\relax }}{41}{figure.caption.36}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Max. 8/9 buses per ring.\relax }}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Max. ten buses per ring\relax }}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Minimal cost found since the start for different number of ants per iteration.\relax }}{44}{figure.caption.42}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Minimal cost found since the start for different $q0$.\relax }}{45}{figure.caption.45}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Minimal cost found since the start for different configurations of $\alpha $ and $\beta $.\relax }}{46}{figure.caption.46}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Minimal cost since start for different values of $\rho $.\relax }}{47}{figure.caption.49}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Minimal cost since start for different values of $\xi $.\relax }}{48}{figure.caption.50}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Example grid}}{36}{figure.caption.29}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Example grid (MV)}}{37}{figure.caption.30}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Example graph zoom}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Example graph triangulation}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Example ant graph}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Result network}}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Minimal cost}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Result grid schematic}}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Max. 8/9 buses per ring schematic}}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Max. 10 buses per ring schematic}}{42}{figure.caption.38}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Parameter study: number of ants}}{44}{figure.caption.41}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Parameter study: $q0$}}{45}{figure.caption.44}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Parameter study: $\alpha $ and $\beta $}}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Parameter study: $\rho $}}{47}{figure.caption.48}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Parameter study: $\xi $}}{48}{figure.caption.49}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {27}{\ignorespaces Solution with a maximum of 8 or 9 buses per ring. Two rings are built (marked yellow and green).\relax }}{55}{figure.caption.52}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Solution with maximum of 10 buses per ring.\relax }}{55}{figure.caption.53}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Appendix: Max. 8/9 buses per ring}}{55}{figure.caption.51}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Appendix: Max. 10 buses per ring}}{55}{figure.caption.52}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

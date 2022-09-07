@@ -77,7 +77,7 @@
 
 @TechReport{brutto_stromverbrauch,
   author      = {Dr. Kemmler, Wünsch, Dr. Burret},
-  title       = {{Entwicklung des Bruttostromverbrauches bis 2030}},
+  title       = {Entwicklung des Bruttostromverbrauches bis 2030},
   institution = {Bundesministerium für Wirtschaft und Energie},
   year        = {2021},
   journal     = {Bundesministerium für Wirtschaft und Energie},

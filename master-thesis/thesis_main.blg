@@ -8,8 +8,8 @@ Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: bib/topic1.bib
 Database file #2: bib/topic2.bib
 Warning--entry type for "Ausbaubericht_2021_page14" isn't style-file defined
---line 139 of file bib/topic2.bib
-Repeated entry---line 163 of file bib/topic2.bib
+--line 141 of file bib/topic2.bib
+Repeated entry---line 165 of file bib/topic2.bib
  : @article{brown2017pypsa
  :                        ,
 I'm skipping whatever remains of this entry
@@ -20,36 +20,36 @@ Warning--there's a number but no series in bonabeau1999swarm
 Warning--empty journal in gebhard2021expansion
 Warning--empty journal in zeller2021planung
 Warning--empty journal in robert_john
-You've used 17 entries,
+You've used 18 entries,
             1876 wiz_defined-function locations,
-            569 strings with 6346 characters,
-and the built_in function-call counts, 3654 in all, are:
-= -- 345
-> -- 145
+            573 strings with 6493 characters,
+and the built_in function-call counts, 3771 in all, are:
+= -- 357
+> -- 149
 < -- 0
-+ -- 56
-- -- 39
-* -- 246
-:= -- 544
-add.period$ -- 21
-call.type$ -- 17
-change.case$ -- 13
++ -- 58
+- -- 40
+* -- 252
+:= -- 567
+add.period$ -- 22
+call.type$ -- 18
+change.case$ -- 15
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 193
-empty$ -- 372
-format.name$ -- 39
-if$ -- 892
+cite$ -- 23
+duplicate$ -- 199
+empty$ -- 384
+format.name$ -- 40
+if$ -- 918
 int.to.chr$ -- 0
-int.to.str$ -- 17
+int.to.str$ -- 18
 missing$ -- 18
-newline$ -- 58
-num.names$ -- 17
-pop$ -- 64
+newline$ -- 61
+num.names$ -- 18
+pop$ -- 66
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 101
+skip$ -- 102
 stack$ -- 0
 substring$ -- 164
 swap$ -- 58
@@ -58,7 +58,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 30
-width$ -- 19
-write$ -- 158
+while$ -- 31
+width$ -- 20
+write$ -- 167
 (There were 2 error messages)
