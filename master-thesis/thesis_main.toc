@@ -17,9 +17,10 @@
 \contentsline {section}{\numberline {3.3}ACO In Grid Planning}{16}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Delaunay Triangulation}{17}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Ant Graph}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Switches}{19}{subsection.3.3.3}%
 \contentsline {chapter}{\numberline {4}Approach}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Optimization Problem}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ant Power Medium Voltage}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Ant-Power-Medium-Voltage}{22}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Input and Parameters}{23}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}APMV Implementation}{23}{subsection.4.2.2}%
 \contentsline {subsubsection}{\nonumberline Global Pheromone Update}{24}{subsubsection*.13}%
@@ -27,13 +28,14 @@
 \contentsline {subsubsection}{\nonumberline Local Pheromone Update}{25}{subsubsection*.15}%
 \contentsline {subsubsection}{\nonumberline Heuristic}{26}{subsubsection*.17}%
 \contentsline {subsubsection}{\nonumberline Expansion rule}{27}{subsubsection*.20}%
-\contentsline {subsection}{\numberline {4.2.4}Cost function}{27}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.4}Switches}{27}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Cost function}{28}{subsection.4.2.5}%
 \contentsline {subsubsection}{\nonumberline Building cost}{28}{subsubsection*.22}%
-\contentsline {subsubsection}{\nonumberline Penalty term}{28}{subsubsection*.24}%
-\contentsline {subsection}{\numberline {4.2.5}The Back-and-Forth Case}{29}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Multiple Rings}{30}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Ring Size and Triangulation}{31}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Run Time}{33}{subsection.4.2.8}%
+\contentsline {subsubsection}{\nonumberline Penalty term}{29}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {4.2.6}The Back-and-Forth Case}{29}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Multiple Rings}{31}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Ring Size and Triangulation}{32}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Run Time}{34}{subsection.4.2.9}%
 \contentsline {chapter}{\numberline {5}Experiments}{35}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Settings}{35}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Libraries}{35}{subsection.5.1.1}%
@@ -44,9 +46,9 @@
 \contentsline {subsubsection}{\nonumberline Control Maximum Number of Stations per Ring}{41}{subsubsection*.37}%
 \contentsline {subsubsection}{\nonumberline Control Number of Constructed Solutions}{43}{subsubsection*.40}%
 \contentsline {subsubsection}{\nonumberline Control Expansion Rule}{44}{subsubsection*.43}%
-\contentsline {subsubsection}{\nonumberline Control Pheromone Update}{46}{subsubsection*.47}%
-\contentsline {subsection}{\numberline {5.2.2}Discussion of Triangulation and Parallel Lines}{48}{subsection.5.2.2}%
-\contentsline {chapter}{\numberline {6}Conclusion}{51}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Appendix}{55}{appendix.A}%
-\contentsline {chapter}{Bibliography}{59}{chapter*.53}%
+\contentsline {subsubsection}{\nonumberline Control Pheromone Update}{45}{subsubsection*.47}%
+\contentsline {subsection}{\numberline {5.2.2}Discussion of Triangulation and Parallel Lines}{47}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {6}Conclusion}{49}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Appendix}{53}{appendix.A}%
+\contentsline {chapter}{Bibliography}{57}{chapter*.53}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

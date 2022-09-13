@@ -1,15 +1,15 @@
 \chapter{Conclusion}\label{chap:conclusion}
-This work gave an introduction to ant colony optimization and how it can be used in the context of medium voltage grids. The presented algorithm was tested and evaluated on a real world cross voltage example and showed good results. It found a solution, which only cost 89\% when compared to the cost of the example grid. Furthermore, the crucial triangulation step of the algorithm was examined. The benefits are a reduction of the search space which comes at the cost of not finding valid solutions in certain cases. Finally, a parameter study was conducted to understand more about the influence of certain parameters on the final result and its findings can be used to further improve the performance of the algorithm. \\
-
+This work gave an introduction to ant colony optimization and how it can be used in the context of medium voltage grids. The presented algorithm was tested and evaluated on a real world cross voltage example and showed good results. It found a solution, which only cost 89\% when compared to the cost of the example grid. Furthermore, the crucial triangulation step of the algorithm was examined. The benefits are a reduction of the search space which comes at the cost of not finding valid solutions in certain cases. Finally, a parameter study was conducted to understand more about the influence of certain parameters on the final result and its findings can be used to further improve the performance of the algorithm and its default parameters. \\
 Additional improvements to the algorithm would be to develop a method to fix problematic solutions in a postprocessing step to avoid restarts and therefore speed up the algorithm. Also, the functionality of explicitly allowing or preventing the algorithm from building parallel lines could be implemented. Another way of improving the runtime would be to parallelize the algorithm via the usage of multiple independent colonies. More research is also required in comparing the performance of \textit{APMV} with other grid planning algorithms (e.g. tabu search, genetic algorithms). This should be done on multiple other real world examples including grids with larger size. \\
-
-Finally, ACO seems to be a promising tool to improve automated planning of electric grids in the future. 
+Finally, based on the results of this work, ACO seems to be a promising tool to improve automated planning of electric grids in the future. 
 
 
 \chapter*{Acknowledgements}
 \thispagestyle{empty}
 
-I would like to thank Janis Kähler and 
+First and foremost I would like to thank my family who always supported me through the years of my studies. Without them, I would not have been able to come this far. Also I thank Vrishank, Rachit, Jonathan, Erik, Ibrahim and all other Students who worked with me at Fraunhofer ISE and with whom I had a great time in- and outside of work. A big thanks also goes to Janis Kähler for helping me with numerous questions and tasks concerning \textit{PyPSA} and other implementation related issues. Furthermore, I thank Wolfgang Biener, who gave me guidance for my work and who was patient when it took me longer than expected to solve certain tasks. For the last weeks of writing I thank my Uni-Library-Crew Damaris, Mara, Carolin and special guests for brightening my days and motivating me for the final push. And lastly, I would like to thank Prof. Christian Shindelhauer and Prof. Christof Witter for examining this work.
+
+
 
 \clearpage
 
